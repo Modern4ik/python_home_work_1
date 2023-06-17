@@ -2,11 +2,9 @@
 # заданное также пользователем, от данной плитки шоколада.
 
 def get_value_from_user(message, error_message):
-
     flag = True
 
     while flag:
-
         user_value = int(input(message))
 
         if user_value > 0:
@@ -16,12 +14,10 @@ def get_value_from_user(message, error_message):
 
 
 def check_choco_by_pieces(size_1, size_2, pieces):
-
     return pieces < size_1 * size_2 and (pieces % size_1 == 0 or pieces % size_2 == 0)
          
 
 def print_report(res):
-    
     if res:
         print("Да, мы можем отломить данное кол-во долек.")
     else:

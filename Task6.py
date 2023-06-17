@@ -7,7 +7,6 @@ second_sum = 0
 flag = True
 
 while flag:
-    
     user_number = int(input("Введите шестизначное число: "))
 
     if user_number > 99999 and user_number < 1000000:
@@ -16,7 +15,6 @@ while flag:
         print("Ошибка ввода!Повторите попытку.")
 
 while user_number / 10 > 0:
-
     if user_number > 999:
         second_sum += user_number % 10
     else:

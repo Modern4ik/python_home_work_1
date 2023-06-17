@@ -5,7 +5,6 @@ sum_digit = 0
 flag = True
 
 while flag:
-
     user_number = int(input("Введите трёхзначное число: "))
     
     if user_number > 99 and user_number < 1000:
@@ -14,7 +13,6 @@ while flag:
         print("Ошибка ввода!Повторите попытку.")
 
 while user_number / 10 > 0:
-
     sum_digit += user_number % 10
 
     user_number = user_number // 10

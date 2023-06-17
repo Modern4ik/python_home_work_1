@@ -5,7 +5,6 @@ total_cranes = 0
 flag = True
 
 while flag:
-
     total_cranes = int(input("Введите общее кол-во журавликов, которое имеет чётное значение: "))
 
     if total_cranes >= 6 and total_cranes % 2 == 0:
